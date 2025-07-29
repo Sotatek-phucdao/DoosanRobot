@@ -9,7 +9,7 @@ Dự án này cung cấp giao diện điều khiển robot Doosan sử dụng RO
 Để cài đặt chương trình cần thực hiện các bước sau:
 
 
-### 1. Cài đặt ROS2
+### 1. Cài đặt ROS2 ( có thể không cần cài ) 
 
 Tùy theo phiên bản Ubuntu, bạn có thể chọn một bản phù hợp. Dưới đây là hướng dẫn cài đặt ROS2 **Humble Hawksbill** trên Ubuntu 22.04:
 
@@ -58,3 +58,11 @@ colcon build --packages-select my_robot_project
 ```
 ros2 run my_robot_project robot_controller
 ```
+
+Sau khi chạy terminal sẽ hiện lên màn như sau:
+![Kịch bản mô phỏng](images/kichban.png)
+
+- **Kịch bản A**: Kịch bản đơn giản nhất  
+- **Kịch bản B**: Robot gắp một đồ vật  
+- **Kịch bản C**: Robot biểu diễn chuyển động
+
