@@ -47,7 +47,7 @@ colcon build
 source install/setup.bash
 ```
 
-Lưu ý: 📌 Lưu ý: Sau khi đã biên dịch toàn bộ workspace ít nhất một lần, bạn có thể chỉ biên dịch một gói cụ thể để tiết kiệm thời gian bằng lệnh:
+Lưu ý: 📌 Lưu ý: Sau khi đã biên dịch toàn bộ workspace ít nhất một lần, dùng câu lệnh sau để tiết kiệm thời gian biên dịch:
 
 ```
 colcon build --packages-select my_robot_project
